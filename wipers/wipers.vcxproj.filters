@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="pch.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="WipersMotor.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Sensor.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager_Wipers.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Sensor_Rain.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Sensor_WasherFluid.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{575276ca-98a4-471f-b1ba-d384a0c3597d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{24ef1914-a3b8-4a0a-b5d8-27b0c3659b44}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Data_Type.h" />
+    <ClInclude Include="Display.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="WipersMotor.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensor.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager_Wipers.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensor_Rain.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensor_WasherFluid.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="wipers.rc" />
+  </ItemGroup>
+</Project>
