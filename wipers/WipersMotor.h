@@ -4,9 +4,9 @@ class WipersMotor
 {
 public:
 	WipersMotor() {}
-	void SetLevel(WipersState level) { wipersState = level; }
-	WipersState GetWiper() const { return wipersState; } 
+	void SetLevel(WipersState level) { wipers = level; }
+	WipersState GetWiper() const { return wipers; } 
 protected:
-	WipersState wipersState;
+	WipersState wipers;
 };
 

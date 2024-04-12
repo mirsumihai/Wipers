@@ -99,17 +99,21 @@
     <ClInclude Include="Button.h" />
     <ClInclude Include="Data_Type.h" />
     <ClInclude Include="Display.h" />
+    <ClInclude Include="FluidPump.h" />
+    <ClInclude Include="Manager_Actuators.h" />
     <ClInclude Include="Manager_Wipers.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="Sensor.h" />
     <ClInclude Include="Sensor_Rain.h" />
-    <ClInclude Include="Sensor_WasherFluid.h" />
+    <ClInclude Include="Sensor_FluidPump.h" />
     <ClInclude Include="WipersMotor.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="Display.cpp" />
+    <ClCompile Include="FluidPump.cpp" />
+    <ClCompile Include="Manager_Actuators.cpp" />
     <ClCompile Include="Manager_Wipers.cpp" />
     <ClCompile Include="Sensor.cpp" />
     <ClCompile Include="Sensor_Rain.cpp" />

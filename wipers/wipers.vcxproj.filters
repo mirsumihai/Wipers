@@ -26,6 +26,12 @@
     <ClCompile Include="Sensor_WasherFluid.cpp">
       <Filter>cpp</Filter>
     </ClCompile>
+    <ClCompile Include="FluidPump.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager_Actuators.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="cpp">
@@ -59,11 +65,20 @@
     <ClInclude Include="Sensor_Rain.h">
       <Filter>headers</Filter>
     </ClInclude>
-    <ClInclude Include="Sensor_WasherFluid.h">
+    <ClInclude Include="Sensor_FluidPump.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FluidPump.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager_Actuators.h">
       <Filter>headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="wipers.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

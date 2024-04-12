@@ -1,6 +1,6 @@
 #pragma once
 #include "Sensor.h"
-class Sensor_WasherFluid:public Sensor
+class Sensor_FluidPump:public Sensor
 {
 public:
 	void Enable(bool enable) override {}

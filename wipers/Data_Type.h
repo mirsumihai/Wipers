@@ -4,27 +4,25 @@ typedef enum ButtonState {
 	Low,
 	High,
 	Mist,
-	int1,
-	int2,
-	int3,
-	int4,
-	int5
+	Automatic
 };
 typedef enum WipersState {
 	WipOff=0,
 	LowWip,
 	HighWip,
 	MistWip,
-	Int1Wip,
-	Int2Wip,
-	Int3Wip,
-	Int4Wip,
-	Int5Wip
+	AutomaticWip
 };
 typedef enum DisplayState {
 	None=0,
 	Yellow,
 	Red
 };
-constexpr float LowRainThreshold{ 1.0 };
-constexpr float HighRainThreshold{ 0.5 };
+typedef enum FluidPumpState {
+	On=1,
+	OffPump=0
+};
+constexpr float LowRainThreshold{ 0.5 };
+constexpr float HighRainThreshold{ 1.0 };
+constexpr float WaterLevelLow{ 0.5 };
+constexpr float WaterLevel0{ 0.0 };
